@@ -35,6 +35,16 @@ Usage
     }
 ```
 
+Initial flash message from the app document
+-------------------------------------------
+Whenever you want to display flash message on initial app load, you can add a meta tag to your document header :
+
+```html
+<meta name="flash-message" content="[['notice', 'Welcome to your web app']]" />
+```
+
+This can be useful if some actions in your project are not part of the web app (yet).
+
 Tests
 -----
 
